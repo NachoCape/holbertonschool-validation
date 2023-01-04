@@ -1,0 +1,5 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+title = 'Welcome to Awesome Inc.'
+publishDir = "dist"
