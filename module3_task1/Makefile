@@ -1,5 +1,5 @@
 build:	# Generate the website from the markdown and configuration files in the directory dist/
-		hugo
+		hugo > /dev/null 2>&1
 
 clean:	# Cleanup the content of the directory dist/
 		rm -r dist
