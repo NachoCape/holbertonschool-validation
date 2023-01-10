@@ -11,5 +11,5 @@ post: ## Create a new blog post whose filename and title come from the environme
 help: ## Display description of the commands
 		@grep -E '^[a-zA-Z0-9 -]+:.*#'  Makefile | sort | while read -r l; do printf "\033[1;32m$$(echo $$l | cut -f 1 -d':')\033[00m:$$(echo $$l | cut -f 2- -d'#')\n"; done
 
-Idk: ## Idk
-		echo "idk"
+idkk: ## Idk
+		echo "idkk"
