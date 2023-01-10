@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-18.04 
     steps:
       - uses: actions/checkout@v3
-      - run: cd module3_task1 && sudo ./setup.sh
-      - run: cd module3_task1 && make build
-      - run: cd module3_task1 && make help
-      - run: cd module3_task1 && post POST_NAME=name POST_TITLE=title
-      - run: cd module3_task1 && make clean
+      - run: cd module4_task0 && sudo ./setup.sh
+      - run: cd module4_task0 && make build
+      - run: cd module4_task0 && make help
+      - run: cd module4_task0 && post POST_NAME=name POST_TITLE=title
+      - run: cd module4_task0 && make clean
