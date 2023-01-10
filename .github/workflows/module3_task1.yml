@@ -13,4 +13,3 @@ jobs:
       - run: cd module3_task1 && make help
       - run: cd module3_task1 && make post POST_NAME=name POST_TITLE=title
       - run: cd module3_task1 && make clean
-      - run: cd module3_task1 && make Idk
