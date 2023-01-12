@@ -21,4 +21,6 @@ package:	## produces a file awesome-website.zip, containing the binary awesome-a
 lint:	## update to lint the files README.md and DEPLOY.md with markdownlint command line
 		markdownlint DEPLOY.md
 
-unit-tests: ## unit tests
+unit-tests:		## unit tests
+
+integration-tests:		## integration tests

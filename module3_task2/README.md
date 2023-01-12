@@ -15,6 +15,7 @@
 - make lint
 - make idkk
 - make unit-tests
+- make integration-tests
 
 ### Workflow
 

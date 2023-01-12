@@ -15,5 +15,6 @@ jobs:
       - run: cd module3_task2 && make clean
       - run: cd module3_task2 && make POST_NAME=name POST_TITLE=title post
       - run: cd module3_task2 && make unit-tests
+      - run: cd module3_task2 && make integration-tests
       - run: cd module3_task2 && make help
       - run: cd module3_task2 && make idkk
