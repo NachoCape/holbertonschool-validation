@@ -19,3 +19,4 @@ package:	## produces a file awesome-website.zip, containing the binary awesome-a
 			zip -r awesome-website.zip dist/ awesome-api
 
 lint:	## update to lint the files README.md and DEPLOY.md with markdownlint command line
+		markdownlint DEPLOY.md
