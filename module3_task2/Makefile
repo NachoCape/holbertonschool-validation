@@ -1,7 +1,7 @@
 build:	## Generate the website from the markdown and configuration files in the directory dist/
 		hugo > /dev/null 2>&1
 
-clean:
+clean: ## ERROR: No comment found for target clean in ./Makefile
 		rm -r dist
 		rm awesome-website.zip
 
