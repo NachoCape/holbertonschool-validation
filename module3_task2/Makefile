@@ -24,3 +24,5 @@ lint:	## update to lint the files README.md and DEPLOY.md with markdownlint comm
 unit-tests:		## unit tests
 
 integration-tests:		## integration tests
+
+validate:		## validate

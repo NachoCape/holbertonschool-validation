@@ -16,6 +16,7 @@
 - make idkk
 - make unit-tests
 - make integration-tests
+- make validate
 
 ### Workflow
 
