@@ -14,6 +14,7 @@
 - make package
 - make lint
 - make idkk
+- make unit-tests
 
 ### Workflow
 
