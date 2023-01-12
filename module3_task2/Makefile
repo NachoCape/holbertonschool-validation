@@ -16,7 +16,7 @@ idkk:	## Idk
 		echo "idkk"
 
 package:	## produces a file awesome-website.zip, containing the binary awesome-api and the directory dist/ directory
-			zip -r awesome-website.zip dist/ awesome-api
+			zip -r awesome-website.zip dist awesome-api
 
 lint:	## update to lint the files README.md and DEPLOY.md with markdownlint command line
 		markdownlint DEPLOY.md

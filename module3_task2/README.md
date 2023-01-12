@@ -13,6 +13,7 @@
 - make help
 - make package
 - make lint
+- make idkk
 
 ### Workflow
 
