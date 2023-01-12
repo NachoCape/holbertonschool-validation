@@ -11,6 +11,8 @@
 - make post
 - make clean
 - make help
+- make package
+- make lint
 
 ### Workflow
 
